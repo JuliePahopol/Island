@@ -13,7 +13,7 @@ public class Satiety {
                satiety.equals(Herbivore.die());
 
             }
-            //? насколько логично ставить null в данном случае :(
+
         }
         return true;
     }
