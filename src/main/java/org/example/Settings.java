@@ -10,6 +10,8 @@ public final class Settings {
     }
     public static final Map<Class<?>, double[]> animalList = new HashMap<>();
     static {
+//тут я не знаю как сделать так чтобы указывались параметры животных, но тк я уже указала их
+        //в другом месте, стоит ли просто их в одну мапку поместить?
         animalList.put(Duck.class, new double[]{1, 200, 1, 4});
         animalList.put(Wolf.class, new double[]{50, 30, 8, 3});
         animalList.put(Caterpillar.class, new double[]{0.01, 1000, 0, 0});
