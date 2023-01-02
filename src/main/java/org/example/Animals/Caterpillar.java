@@ -1,10 +1,10 @@
-package org.example;
+package org.example.Animals;
 
-import java.util.HashMap;
+import org.example.Plants;
 
-public class Caterpillar extends Herbivore{
+public class Caterpillar extends Herbivore {
     public Caterpillar(BaseSettings baseSettings){
-        super(baseSettings);
+        super(BaseSettings.CATERPILLAR_BASE_SETTING);
     }
 
 

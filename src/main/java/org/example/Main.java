@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.Animals.Animal;
+
 import java.util.ArrayList;
 
 public class Main {

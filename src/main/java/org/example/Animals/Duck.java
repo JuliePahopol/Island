@@ -1,9 +1,11 @@
-package org.example;
+package org.example.Animals;
 
-public class Duck extends Herbivore{
+import org.example.Plants;
+
+public class Duck extends Herbivore {
 
     public Duck(BaseSettings baseSettings) {
-        super(baseSettings);
+        super(BaseSettings.DUCK_BASE_SETTING);
     }
 
 

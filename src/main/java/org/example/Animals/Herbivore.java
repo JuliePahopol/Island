@@ -1,4 +1,7 @@
-package org.example;
+package org.example.Animals;
+
+import org.example.Plants;
+import org.example.Satiety;
 
 public abstract class Herbivore extends Animal {
 
@@ -13,7 +16,7 @@ public abstract class Herbivore extends Animal {
         return 0;
     }
 
-    public void eat() {
+    public void eat(Plants plants) {
     }
 
     @Override
@@ -22,13 +25,14 @@ public abstract class Herbivore extends Animal {
     }
 
 
-    public static void die() {
+    public static Object die() {
         Satiety satiety = new Satiety();
         if (satiety.isNull()) {
             Herbivore.die();
 
 
         }
+        return Herbivore.die();
     }
 }
 

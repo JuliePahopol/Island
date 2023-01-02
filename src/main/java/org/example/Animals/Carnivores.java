@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Animals;
 
 public abstract class Carnivores extends Animal {
 
@@ -12,8 +12,9 @@ public abstract class Carnivores extends Animal {
         return 0;
     }
 
-    @Override
-    public void eat() {
+
+    public void eat(Animal animal) {
+
     }
 
     @Override

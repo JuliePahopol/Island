@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Animals;
 
 public class BaseSettings {
     public static final BaseSettings WOLF_BASE_SETTING = new BaseSettings(50, 30, 3, 8);

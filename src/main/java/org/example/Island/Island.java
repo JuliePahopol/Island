@@ -1,12 +1,14 @@
-import org.example.Animal;
+package org.example.Island;
 
-import javax.xml.stream.Location;
+import org.example.Animals.Animal;
+import org.example.Plants;
+
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Random;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Island  {
+   private final Map<String, ArrayList<Animal>> animals = new HashMap<>();
    private final Island[][] locations;
 
    public Island(Island[][] locations) {
@@ -20,14 +22,17 @@ public class Island  {
 
    public void SettlePlantsAndAnimals() {
       getLocationByCoordinates(new Coordinates(4, 5));
-      settleAnimals;
-      settlePLants;
+      settleAnimals();
+      settlePlants();
    }
 
    private void settleAnimals(){
-     ArrayList<Animal> quantityOfAnimals= new ArrayList<>();
-      int maxAnimals = Randomizer
+//     ArrayList<Animal> quantityOfAnimals= new ArrayList<>();
 
+      int randomIndex = RandomNumber.generateRandom(2, Animal.getMAX_AMOUNT_OF_ANIMALS());
+   }
+   private  void settlePlants(){
+      int randomIndex = RandomNumber.generateRandom(2,Plants.getMAX_NUMBER_OF_PLANTS());
 
    }
 }

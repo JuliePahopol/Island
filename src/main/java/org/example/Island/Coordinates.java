@@ -1,4 +1,4 @@
-import org.example.Duck;
+package org.example.Island;
 
 public class Coordinates {
     private int x;

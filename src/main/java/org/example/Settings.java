@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.Animals.Caterpillar;
+import org.example.Animals.Duck;
+import org.example.Animals.Wolf;
+
 import java.util.HashMap;
 import java.util.Map;
 
