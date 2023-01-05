@@ -2,12 +2,10 @@ package org.example.Island;
 
 import org.example.Animals.Carnivores;
 import org.example.Animals.Herbivore;
-import org.example.Factories.HerbivoreFactory;
 import org.example.Plants;
 
 import java.util.List;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 
 public class Location {
@@ -44,10 +42,10 @@ public class Location {
         }
         for (int i = 0; i< carnivores.size();i++){
             carnivores.add(carnivores.get(i));
+
         }
     }
     public void die(){
-
 
     }
 }

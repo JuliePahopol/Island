@@ -1,8 +1,10 @@
 package org.example;
 
 import org.example.Animals.Animal;
+import org.example.Island.Location;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
