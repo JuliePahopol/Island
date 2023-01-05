@@ -7,19 +7,12 @@ import org.example.Animals.Wolf;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class Settings {
+public final class Settings{
 
-    Settings(){
+    public Settings(){
         throw new IllegalStateException();
     }
-    public static final Map<Class<?>, double[]> animalList = new HashMap<>();
-    static {
-//тут я не знаю как сделать так чтобы указывались параметры животных, но тк я уже указала их
-        //в другом месте, стоит ли просто их в одну мапку поместить?
-        animalList.put(Duck.class, new double[]{1, 200, 1, 4});
-        animalList.put(Wolf.class, new double[]{50, 30, 8, 3});
-        animalList.put(Caterpillar.class, new double[]{0.01, 1000, 0, 0});
-    }
+
     public static final Map<Class<?>, Map<Class<?>,Integer>> probability=new HashMap<>();
 
 
@@ -41,8 +34,6 @@ public final class Settings {
         probability.put(Wolf.class,probability_WOLF);
         probability.put(Duck.class,probability_DUCK);
         probability.put(Caterpillar.class,probability_CATERPILLAR);
-
-
 
     }
 }

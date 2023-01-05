@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ReentrantLock lock = new ReentrantLock">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JavaRushTask/.mvn/wrapper/maven-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
